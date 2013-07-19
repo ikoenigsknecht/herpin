@@ -262,8 +262,8 @@
 			children = (
 				25A493B81799A0FF0072E980 /* Default-568h@2x.png */,
 				2532833215263D8B00E775B1 /* TabBar Buttons */,
-				24F8301A14E335100060F6DA /* herpin */,
-				24F8303814E335100060F6DA /* herpinTests */,
+				24F8301A14E335100060F6DA /* lightControlApp */,
+				24F8303814E335100060F6DA /* lightControlAppTests */,
 				24F8301314E335100060F6DA /* Frameworks */,
 				24F8301114E335100060F6DA /* Products */,
 			);
@@ -295,7 +295,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24F8301A14E335100060F6DA /* herpin */ = {
+		24F8301A14E335100060F6DA /* lightControlApp */ = {
 			isa = PBXGroup;
 			children = (
 				24F8302614E335100060F6DA /* MainStoryboard.storyboard */,
@@ -315,6 +315,7 @@
 				25CBAAED153CF9360069A08D /* GCD */,
 				24F8301B14E335100060F6DA /* Supporting Files */,
 			);
+			name = lightControlApp;
 			path = herpin;
 			sourceTree = "<group>";
 		};
@@ -329,13 +330,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		24F8303814E335100060F6DA /* herpinTests */ = {
+		24F8303814E335100060F6DA /* lightControlAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				24F8303E14E335100060F6DA /* herpinTests.h */,
 				24F8303F14E335100060F6DA /* herpinTests.m */,
 				24F8303914E335100060F6DA /* Supporting Files */,
 			);
+			name = lightControlAppTests;
 			path = herpinTests;
 			sourceTree = "<group>";
 		};
