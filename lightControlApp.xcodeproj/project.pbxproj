@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248FAA9714E45F37002EC8AF /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248FAA9614E45F37002EC8AF /* firstViewController.m */; };
+		24AACE1314E9AC8B00F80058 /* presetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AACE1214E9AC8B00F80058 /* presetsViewController.m */; };
+		24CA1A4E14EC5A63007C04EE /* Preset.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CA1A4D14EC5A63007C04EE /* Preset.m */; };
+		24F8301514E335100060F6DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8301414E335100060F6DA /* UIKit.framework */; };
+		24F8301714E335100060F6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8301614E335100060F6DA /* Foundation.framework */; };
+		24F8301914E335100060F6DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8301814E335100060F6DA /* CoreGraphics.framework */; };
+		24F8301F14E335100060F6DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F8301D14E335100060F6DA /* InfoPlist.strings */; };
+		24F8302114E335100060F6DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8302014E335100060F6DA /* main.m */; };
+		24F8302514E335100060F6DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8302414E335100060F6DA /* AppDelegate.m */; };
+		24F8302814E335100060F6DA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F8302614E335100060F6DA /* MainStoryboard.storyboard */; };
+		24F8303314E335100060F6DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8303214E335100060F6DA /* SenTestingKit.framework */; };
+		24F8303414E335100060F6DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8301414E335100060F6DA /* UIKit.framework */; };
+		24F8303514E335100060F6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F8301614E335100060F6DA /* Foundation.framework */; };
+		24F8303D14E335100060F6DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F8303B14E335100060F6DA /* InfoPlist.strings */; };
+		24F8304014E335100060F6DA /* herpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8303F14E335100060F6DA /* herpinTests.m */; };
+		24F8507214F6F544008E9F7C /* createNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8507014F6F544008E9F7C /* createNewViewController.m */; };
+		24F8E28A14F2FCAB00352F05 /* editController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8E28914F2FCAB00352F05 /* editController.m */; };
+		2500B2701523A81B00189439 /* energyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2500B26F1523A81B00189439 /* energyViewController.m */; };
+		250B8E76152E4E0600F59FAB /* currentSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250B8E75152E4E0600F59FAB /* currentSettingsViewController.m */; };
+		253282FA1525F6F900E775B1 /* defaultSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253282F91525F6F900E775B1 /* defaultSettingsViewController.m */; };
+		2532833915263D8B00E775B1 /* energyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833315263D8B00E775B1 /* energyButton.png */; };
+		2532833A15263D8B00E775B1 /* energyButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833415263D8B00E775B1 /* energyButtonUnselected.png */; };
+		2532833B15263D8B00E775B1 /* presetsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833515263D8B00E775B1 /* presetsButton.png */; };
+		2532833C15263D8B00E775B1 /* presetsButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833615263D8B00E775B1 /* presetsButtonUnselected.png */; };
+		2532833D15263D8B00E775B1 /* settingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833715263D8B00E775B1 /* settingsButton.png */; };
+		2532833E15263D8B00E775B1 /* settingsButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2532833815263D8B00E775B1 /* settingsButtonUnselected.png */; };
+		253B94E9155395C4002F718D /* 35412908985844178.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D1155395C4002F718D /* 35412908985844178.png */; };
+		253B94EA155395C4002F718D /* 570133364965954419.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D2155395C4002F718D /* 570133364965954419.png */; };
+		253B94EB155395C4002F718D /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D3155395C4002F718D /* blueButton.png */; };
+		253B94EC155395C4002F718D /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D4155395C4002F718D /* cell.png */; };
+		253B94ED155395C4002F718D /* cell.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D5155395C4002F718D /* cell.psd */; };
+		253B94EE155395C4002F718D /* energyButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D6155395C4002F718D /* energyButton.psd */; };
+		253B94EF155395C4002F718D /* energyButtonUnselected.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D7155395C4002F718D /* energyButtonUnselected.psd */; };
+		253B94F0155395C4002F718D /* HT1476_03-iphone_china-lightning_bolt-002-en.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D8155395C4002F718D /* HT1476_03-iphone_china-lightning_bolt-002-en.png */; };
+		253B94F1155395C4002F718D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94D9155395C4002F718D /* icon.png */; };
+		253B94F2155395C4002F718D /* icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DA155395C4002F718D /* icon.psd */; };
+		253B94F3155395C4002F718D /* Light_Bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DB155395C4002F718D /* Light_Bulb.png */; };
+		253B94F4155395C4002F718D /* monotone_cog_settings_gear_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DC155395C4002F718D /* monotone_cog_settings_gear_1.png */; };
+		253B94F5155395C4002F718D /* presetsButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DD155395C4002F718D /* presetsButton.psd */; };
+		253B94F6155395C4002F718D /* presetsButtonUnselected.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DE155395C4002F718D /* presetsButtonUnselected.psd */; };
+		253B94F7155395C4002F718D /* settingsButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94DF155395C4002F718D /* settingsButton.psd */; };
+		253B94F8155395C4002F718D /* settingsButtonUnselected.psd in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E0155395C4002F718D /* settingsButtonUnselected.psd */; };
+		253B94F9155395C4002F718D /* step8a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E1155395C4002F718D /* step8a.jpg */; };
+		253B94FA155395C4002F718D /* energyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E3155395C4002F718D /* energyButton.png */; };
+		253B94FB155395C4002F718D /* energyButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E4155395C4002F718D /* energyButtonUnselected.png */; };
+		253B94FC155395C4002F718D /* presetsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E5155395C4002F718D /* presetsButton.png */; };
+		253B94FD155395C4002F718D /* presetsButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E6155395C4002F718D /* presetsButtonUnselected.png */; };
+		253B94FE155395C4002F718D /* settingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E7155395C4002F718D /* settingsButton.png */; };
+		253B94FF155395C4002F718D /* settingsButtonUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B94E8155395C4002F718D /* settingsButtonUnselected.png */; };
+		2542833F15114B8500B507AF /* APAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542833915114B8500B507AF /* APAttribute.m */; };
+		2542834015114B8500B507AF /* APDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542833B15114B8500B507AF /* APDocument.m */; };
+		2542834115114B8500B507AF /* APElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542833D15114B8500B507AF /* APElement.m */; };
+		2555F08C152511D600444AF4 /* FloatHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2555F08B152511D600444AF4 /* FloatHolder.m */; };
+		2597A8951548A57200DF28D4 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A8941548A57200DF28D4 /* redButton.png */; };
+		2597A8981548A57B00DF28D4 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A8971548A57B00DF28D4 /* blueButton.png */; };
+		2597A89B1548AF0300DF28D4 /* blueButtonSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A8991548AF0300DF28D4 /* blueButtonSmaller.png */; };
+		2597A89C1548AF0300DF28D4 /* redButtonSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A89A1548AF0300DF28D4 /* redButtonSmaller.png */; };
+		25A4998E14FEA2CE0060093F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998814FEA2CE0060093F /* CFNetwork.framework */; };
+		25A4998F14FEA2CE0060093F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998914FEA2CE0060093F /* CoreData.framework */; };
+		25A4999014FEA2CE0060093F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998A14FEA2CE0060093F /* MobileCoreServices.framework */; };
+		25A4999114FEA2CE0060093F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998B14FEA2CE0060093F /* Security.framework */; };
+		25A4999214FEA2CE0060093F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998C14FEA2CE0060093F /* SystemConfiguration.framework */; };
+		25A4999514FEA30E0060093F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4999414FEA30E0060093F /* libz.dylib */; };
+		25CBAAE9153CEB040069A08D /* loginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBAAE8153CEB040069A08D /* loginInfo.m */; };
+		25CBAC3A153CF9370069A08D /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 25CBAAEE153CF9360069A08D /* Documentation.html */; };
+		25CBAC3B153CF9370069A08D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBAAF0153CF9360069A08D /* GCDAsyncSocket.m */; };
+		25CBAC3C153CF9370069A08D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBAAF2153CF9360069A08D /* GCDAsyncUdpSocket.m */; };
+		25E556751523A73000340371 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E556741523A73000340371 /* settingsViewController.m */; };
+		25E6181B1546385F006F376E /* timerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6181A1546385F006F376E /* timerViewController.m */; };
+		25E904271530C38100A2FF67 /* noAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E904261530C38100A2FF67 /* noAnimationSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24F8303614E335100060F6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F8300714E335100060F6DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F8300F14E335100060F6DA;
+			remoteInfo = herpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		248FAA9514E45F37002EC8AF /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		248FAA9614E45F37002EC8AF /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		24AACE1114E9AC8B00F80058 /* presetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = presetsViewController.h; sourceTree = "<group>"; };
+		24AACE1214E9AC8B00F80058 /* presetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = presetsViewController.m; sourceTree = "<group>"; };
+		24CA1A4C14EC5A63007C04EE /* Preset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preset.h; sourceTree = "<group>"; };
+		24CA1A4D14EC5A63007C04EE /* Preset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preset.m; sourceTree = "<group>"; };
+		24F8301014E335100060F6DA /* lightControlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightControlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F8301414E335100060F6DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24F8301614E335100060F6DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24F8301814E335100060F6DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24F8301C14E335100060F6DA /* lightControlApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lightControlApp-Info.plist"; sourceTree = "<group>"; };
+		24F8301E14E335100060F6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24F8302014E335100060F6DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24F8302214E335100060F6DA /* lightControlApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lightControlApp-Prefix.pch"; sourceTree = "<group>"; };
+		24F8302314E335100060F6DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24F8302414E335100060F6DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24F8302714E335100060F6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		24F8303114E335100060F6DA /* lightControlAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightControlAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F8303214E335100060F6DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24F8303A14E335100060F6DA /* lightControlAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lightControlAppTests-Info.plist"; sourceTree = "<group>"; };
+		24F8303C14E335100060F6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24F8303E14E335100060F6DA /* herpinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = herpinTests.h; sourceTree = "<group>"; };
+		24F8303F14E335100060F6DA /* herpinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = herpinTests.m; sourceTree = "<group>"; };
+		24F8507014F6F544008E9F7C /* createNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createNewViewController.m; sourceTree = "<group>"; };
+		24F8507114F6F544008E9F7C /* createNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createNewViewController.h; sourceTree = "<group>"; };
+		24F8E28814F2FCAB00352F05 /* editController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editController.h; sourceTree = "<group>"; };
+		24F8E28914F2FCAB00352F05 /* editController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editController.m; sourceTree = "<group>"; };
+		2500B26E1523A81B00189439 /* energyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = energyViewController.h; sourceTree = "<group>"; };
+		2500B26F1523A81B00189439 /* energyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = energyViewController.m; sourceTree = "<group>"; };
+		250B8E71152E42D600F59FAB /* currentSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currentSettingsViewController.h; sourceTree = "<group>"; };
+		250B8E75152E4E0600F59FAB /* currentSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = currentSettingsViewController.m; sourceTree = "<group>"; };
+		253282F81525F6F900E775B1 /* defaultSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaultSettingsViewController.h; sourceTree = "<group>"; };
+		253282F91525F6F900E775B1 /* defaultSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defaultSettingsViewController.m; sourceTree = "<group>"; };
+		2532833315263D8B00E775B1 /* energyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyButton.png; sourceTree = "<group>"; };
+		2532833415263D8B00E775B1 /* energyButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyButtonUnselected.png; sourceTree = "<group>"; };
+		2532833515263D8B00E775B1 /* presetsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presetsButton.png; sourceTree = "<group>"; };
+		2532833615263D8B00E775B1 /* presetsButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presetsButtonUnselected.png; sourceTree = "<group>"; };
+		2532833715263D8B00E775B1 /* settingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButton.png; sourceTree = "<group>"; };
+		2532833815263D8B00E775B1 /* settingsButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButtonUnselected.png; sourceTree = "<group>"; };
+		253B94D1155395C4002F718D /* 35412908985844178.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35412908985844178.png; sourceTree = "<group>"; };
+		253B94D2155395C4002F718D /* 570133364965954419.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 570133364965954419.png; sourceTree = "<group>"; };
+		253B94D3155395C4002F718D /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		253B94D4155395C4002F718D /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		253B94D5155395C4002F718D /* cell.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = cell.psd; sourceTree = "<group>"; };
+		253B94D6155395C4002F718D /* energyButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = energyButton.psd; sourceTree = "<group>"; };
+		253B94D7155395C4002F718D /* energyButtonUnselected.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = energyButtonUnselected.psd; sourceTree = "<group>"; };
+		253B94D8155395C4002F718D /* HT1476_03-iphone_china-lightning_bolt-002-en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HT1476_03-iphone_china-lightning_bolt-002-en.png"; sourceTree = "<group>"; };
+		253B94D9155395C4002F718D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		253B94DA155395C4002F718D /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
+		253B94DB155395C4002F718D /* Light_Bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Light_Bulb.png; sourceTree = "<group>"; };
+		253B94DC155395C4002F718D /* monotone_cog_settings_gear_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monotone_cog_settings_gear_1.png; sourceTree = "<group>"; };
+		253B94DD155395C4002F718D /* presetsButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = presetsButton.psd; sourceTree = "<group>"; };
+		253B94DE155395C4002F718D /* presetsButtonUnselected.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = presetsButtonUnselected.psd; sourceTree = "<group>"; };
+		253B94DF155395C4002F718D /* settingsButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = settingsButton.psd; sourceTree = "<group>"; };
+		253B94E0155395C4002F718D /* settingsButtonUnselected.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = settingsButtonUnselected.psd; sourceTree = "<group>"; };
+		253B94E1155395C4002F718D /* step8a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = step8a.jpg; sourceTree = "<group>"; };
+		253B94E3155395C4002F718D /* energyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyButton.png; sourceTree = "<group>"; };
+		253B94E4155395C4002F718D /* energyButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyButtonUnselected.png; sourceTree = "<group>"; };
+		253B94E5155395C4002F718D /* presetsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presetsButton.png; sourceTree = "<group>"; };
+		253B94E6155395C4002F718D /* presetsButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presetsButtonUnselected.png; sourceTree = "<group>"; };
+		253B94E7155395C4002F718D /* settingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButton.png; sourceTree = "<group>"; };
+		253B94E8155395C4002F718D /* settingsButtonUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButtonUnselected.png; sourceTree = "<group>"; };
+		2542833815114B8500B507AF /* APAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAttribute.h; sourceTree = "<group>"; };
+		2542833915114B8500B507AF /* APAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAttribute.m; sourceTree = "<group>"; };
+		2542833A15114B8500B507AF /* APDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDocument.h; sourceTree = "<group>"; };
+		2542833B15114B8500B507AF /* APDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDocument.m; sourceTree = "<group>"; };
+		2542833C15114B8500B507AF /* APElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APElement.h; sourceTree = "<group>"; };
+		2542833D15114B8500B507AF /* APElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APElement.m; sourceTree = "<group>"; };
+		2542833E15114B8500B507AF /* APXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APXML.h; sourceTree = "<group>"; };
+		2555F08A152511D600444AF4 /* FloatHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatHolder.h; sourceTree = "<group>"; };
+		2555F08B152511D600444AF4 /* FloatHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatHolder.m; sourceTree = "<group>"; };
+		2597A8941548A57200DF28D4 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		2597A8971548A57B00DF28D4 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		2597A8991548AF0300DF28D4 /* blueButtonSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonSmaller.png; sourceTree = "<group>"; };
+		2597A89A1548AF0300DF28D4 /* redButtonSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButtonSmaller.png; sourceTree = "<group>"; };
+		25A4998814FEA2CE0060093F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		25A4998914FEA2CE0060093F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25A4998A14FEA2CE0060093F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		25A4998B14FEA2CE0060093F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		25A4998C14FEA2CE0060093F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		25A4999414FEA30E0060093F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		25CBAAE7153CEB040069A08D /* loginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginInfo.h; sourceTree = "<group>"; };
+		25CBAAE8153CEB040069A08D /* loginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginInfo.m; sourceTree = "<group>"; };
+		25CBAAEE153CF9360069A08D /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		25CBAAEF153CF9360069A08D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		25CBAAF0153CF9360069A08D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		25CBAAF1153CF9360069A08D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		25CBAAF2153CF9360069A08D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		25E556731523A73000340371 /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		25E556741523A73000340371 /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
+		25E618191546385F006F376E /* timerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timerViewController.h; sourceTree = "<group>"; };
+		25E6181A1546385F006F376E /* timerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timerViewController.m; sourceTree = "<group>"; };
+		25E904251530C38100A2FF67 /* noAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noAnimationSegue.h; sourceTree = "<group>"; };
+		25E904261530C38100A2FF67 /* noAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noAnimationSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F8300D14E335100060F6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A4999514FEA30E0060093F /* libz.dylib in Frameworks */,
+				25A4998E14FEA2CE0060093F /* CFNetwork.framework in Frameworks */,
+				25A4998F14FEA2CE0060093F /* CoreData.framework in Frameworks */,
+				25A4999014FEA2CE0060093F /* MobileCoreServices.framework in Frameworks */,
+				25A4999114FEA2CE0060093F /* Security.framework in Frameworks */,
+				25A4999214FEA2CE0060093F /* SystemConfiguration.framework in Frameworks */,
+				24F8301514E335100060F6DA /* UIKit.framework in Frameworks */,
+				24F8301714E335100060F6DA /* Foundation.framework in Frameworks */,
+				24F8301914E335100060F6DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F8302D14E335100060F6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F8303314E335100060F6DA /* SenTestingKit.framework in Frameworks */,
+				24F8303414E335100060F6DA /* UIKit.framework in Frameworks */,
+				24F8303514E335100060F6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DD5ADA14EF3483002586A9 /* Presets */ = {
+			isa = PBXGroup;
+			children = (
+				24CA1A4C14EC5A63007C04EE /* Preset.h */,
+				24CA1A4D14EC5A63007C04EE /* Preset.m */,
+				24F8E28814F2FCAB00352F05 /* editController.h */,
+				24F8E28914F2FCAB00352F05 /* editController.m */,
+				24AACE1114E9AC8B00F80058 /* presetsViewController.h */,
+				24AACE1214E9AC8B00F80058 /* presetsViewController.m */,
+				24F8507114F6F544008E9F7C /* createNewViewController.h */,
+				24F8507014F6F544008E9F7C /* createNewViewController.m */,
+				253282F81525F6F900E775B1 /* defaultSettingsViewController.h */,
+				253282F91525F6F900E775B1 /* defaultSettingsViewController.m */,
+				250B8E71152E42D600F59FAB /* currentSettingsViewController.h */,
+				250B8E75152E4E0600F59FAB /* currentSettingsViewController.m */,
+			);
+			name = Presets;
+			sourceTree = "<group>";
+		};
+		24DD5ADB14EF34B1002586A9 /* Initial Page */ = {
+			isa = PBXGroup;
+			children = (
+				248FAA9514E45F37002EC8AF /* firstViewController.h */,
+				248FAA9614E45F37002EC8AF /* firstViewController.m */,
+				25CBAAE7153CEB040069A08D /* loginInfo.h */,
+				25CBAAE8153CEB040069A08D /* loginInfo.m */,
+			);
+			name = "Initial Page";
+			sourceTree = "<group>";
+		};
+		24DD5ADC14EF34E9002586A9 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				24F8302314E335100060F6DA /* AppDelegate.h */,
+				24F8302414E335100060F6DA /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		24F8300514E335100060F6DA = {
+			isa = PBXGroup;
+			children = (
+				2532833215263D8B00E775B1 /* TabBar Buttons */,
+				24F8301A14E335100060F6DA /* herpin */,
+				24F8303814E335100060F6DA /* herpinTests */,
+				24F8301314E335100060F6DA /* Frameworks */,
+				24F8301114E335100060F6DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24F8301114E335100060F6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F8301014E335100060F6DA /* lightControlApp.app */,
+				24F8303114E335100060F6DA /* lightControlAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F8301314E335100060F6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A4999414FEA30E0060093F /* libz.dylib */,
+				25A4998814FEA2CE0060093F /* CFNetwork.framework */,
+				25A4998914FEA2CE0060093F /* CoreData.framework */,
+				25A4998A14FEA2CE0060093F /* MobileCoreServices.framework */,
+				25A4998B14FEA2CE0060093F /* Security.framework */,
+				25A4998C14FEA2CE0060093F /* SystemConfiguration.framework */,
+				24F8301414E335100060F6DA /* UIKit.framework */,
+				24F8301614E335100060F6DA /* Foundation.framework */,
+				24F8301814E335100060F6DA /* CoreGraphics.framework */,
+				24F8303214E335100060F6DA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24F8301A14E335100060F6DA /* herpin */ = {
+			isa = PBXGroup;
+			children = (
+				24F8302614E335100060F6DA /* MainStoryboard.storyboard */,
+				253B94D0155395C4002F718D /* Images for Sr Design */,
+				2597A8991548AF0300DF28D4 /* blueButtonSmaller.png */,
+				2597A89A1548AF0300DF28D4 /* redButtonSmaller.png */,
+				2597A8971548A57B00DF28D4 /* blueButton.png */,
+				2597A8941548A57200DF28D4 /* redButton.png */,
+				25E904321530C5E100A2FF67 /* Custom Storyboard Segues */,
+				24DD5ADC14EF34E9002586A9 /* App Delegate */,
+				24DD5ADB14EF34B1002586A9 /* Initial Page */,
+				24DD5ADA14EF3483002586A9 /* Presets */,
+				2500B2721523A82000189439 /* Energy */,
+				25E556761523A73600340371 /* Settings */,
+				2555F08E152511DA00444AF4 /* FloatHolder */,
+				2542834315114B8C00B507AF /* APXML */,
+				25CBAAED153CF9360069A08D /* GCD */,
+				24F8301B14E335100060F6DA /* Supporting Files */,
+			);
+			path = herpin;
+			sourceTree = "<group>";
+		};
+		24F8301B14E335100060F6DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F8301C14E335100060F6DA /* lightControlApp-Info.plist */,
+				24F8301D14E335100060F6DA /* InfoPlist.strings */,
+				24F8302014E335100060F6DA /* main.m */,
+				24F8302214E335100060F6DA /* lightControlApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24F8303814E335100060F6DA /* herpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				24F8303E14E335100060F6DA /* herpinTests.h */,
+				24F8303F14E335100060F6DA /* herpinTests.m */,
+				24F8303914E335100060F6DA /* Supporting Files */,
+			);
+			path = herpinTests;
+			sourceTree = "<group>";
+		};
+		24F8303914E335100060F6DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F8303A14E335100060F6DA /* lightControlAppTests-Info.plist */,
+				24F8303B14E335100060F6DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2500B2721523A82000189439 /* Energy */ = {
+			isa = PBXGroup;
+			children = (
+				2500B26E1523A81B00189439 /* energyViewController.h */,
+				2500B26F1523A81B00189439 /* energyViewController.m */,
+			);
+			name = Energy;
+			sourceTree = "<group>";
+		};
+		2532833215263D8B00E775B1 /* TabBar Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2532833315263D8B00E775B1 /* energyButton.png */,
+				2532833415263D8B00E775B1 /* energyButtonUnselected.png */,
+				2532833515263D8B00E775B1 /* presetsButton.png */,
+				2532833615263D8B00E775B1 /* presetsButtonUnselected.png */,
+				2532833715263D8B00E775B1 /* settingsButton.png */,
+				2532833815263D8B00E775B1 /* settingsButtonUnselected.png */,
+			);
+			path = "TabBar Buttons";
+			sourceTree = "<group>";
+		};
+		253B94D0155395C4002F718D /* Images for Sr Design */ = {
+			isa = PBXGroup;
+			children = (
+				253B94D1155395C4002F718D /* 35412908985844178.png */,
+				253B94D2155395C4002F718D /* 570133364965954419.png */,
+				253B94D3155395C4002F718D /* blueButton.png */,
+				253B94D4155395C4002F718D /* cell.png */,
+				253B94D5155395C4002F718D /* cell.psd */,
+				253B94D6155395C4002F718D /* energyButton.psd */,
+				253B94D7155395C4002F718D /* energyButtonUnselected.psd */,
+				253B94D8155395C4002F718D /* HT1476_03-iphone_china-lightning_bolt-002-en.png */,
+				253B94D9155395C4002F718D /* icon.png */,
+				253B94DA155395C4002F718D /* icon.psd */,
+				253B94DB155395C4002F718D /* Light_Bulb.png */,
+				253B94DC155395C4002F718D /* monotone_cog_settings_gear_1.png */,
+				253B94DD155395C4002F718D /* presetsButton.psd */,
+				253B94DE155395C4002F718D /* presetsButtonUnselected.psd */,
+				253B94DF155395C4002F718D /* settingsButton.psd */,
+				253B94E0155395C4002F718D /* settingsButtonUnselected.psd */,
+				253B94E1155395C4002F718D /* step8a.jpg */,
+				253B94E2155395C4002F718D /* TabBar Buttons */,
+			);
+			path = "Images for Sr Design";
+			sourceTree = "<group>";
+		};
+		253B94E2155395C4002F718D /* TabBar Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				253B94E3155395C4002F718D /* energyButton.png */,
+				253B94E4155395C4002F718D /* energyButtonUnselected.png */,
+				253B94E5155395C4002F718D /* presetsButton.png */,
+				253B94E6155395C4002F718D /* presetsButtonUnselected.png */,
+				253B94E7155395C4002F718D /* settingsButton.png */,
+				253B94E8155395C4002F718D /* settingsButtonUnselected.png */,
+			);
+			path = "TabBar Buttons";
+			sourceTree = "<group>";
+		};
+		2542834315114B8C00B507AF /* APXML */ = {
+			isa = PBXGroup;
+			children = (
+				2542833815114B8500B507AF /* APAttribute.h */,
+				2542833915114B8500B507AF /* APAttribute.m */,
+				2542833A15114B8500B507AF /* APDocument.h */,
+				2542833B15114B8500B507AF /* APDocument.m */,
+				2542833C15114B8500B507AF /* APElement.h */,
+				2542833D15114B8500B507AF /* APElement.m */,
+				2542833E15114B8500B507AF /* APXML.h */,
+			);
+			name = APXML;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2555F08E152511DA00444AF4 /* FloatHolder */ = {
+			isa = PBXGroup;
+			children = (
+				2555F08A152511D600444AF4 /* FloatHolder.h */,
+				2555F08B152511D600444AF4 /* FloatHolder.m */,
+			);
+			name = FloatHolder;
+			sourceTree = "<group>";
+		};
+		25CBAAED153CF9360069A08D /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				25CBAAEE153CF9360069A08D /* Documentation.html */,
+				25CBAAEF153CF9360069A08D /* GCDAsyncSocket.h */,
+				25CBAAF0153CF9360069A08D /* GCDAsyncSocket.m */,
+				25CBAAF1153CF9360069A08D /* GCDAsyncUdpSocket.h */,
+				25CBAAF2153CF9360069A08D /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			path = "robbiehanson-CocoaAsyncSocket-b60fb63/GCD";
+			sourceTree = "<group>";
+		};
+		25E556761523A73600340371 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				25E556731523A73000340371 /* settingsViewController.h */,
+				25E556741523A73000340371 /* settingsViewController.m */,
+				25E618191546385F006F376E /* timerViewController.h */,
+				25E6181A1546385F006F376E /* timerViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		25E904321530C5E100A2FF67 /* Custom Storyboard Segues */ = {
+			isa = PBXGroup;
+			children = (
+				25E904251530C38100A2FF67 /* noAnimationSegue.h */,
+				25E904261530C38100A2FF67 /* noAnimationSegue.m */,
+			);
+			name = "Custom Storyboard Segues";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F8300F14E335100060F6DA /* lightControlApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F8304314E335100060F6DA /* Build configuration list for PBXNativeTarget "lightControlApp" */;
+			buildPhases = (
+				24F8300C14E335100060F6DA /* Sources */,
+				24F8300D14E335100060F6DA /* Frameworks */,
+				24F8300E14E335100060F6DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightControlApp;
+			productName = herpin;
+			productReference = 24F8301014E335100060F6DA /* lightControlApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24F8303014E335100060F6DA /* lightControlAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F8304614E335100060F6DA /* Build configuration list for PBXNativeTarget "lightControlAppTests" */;
+			buildPhases = (
+				24F8302C14E335100060F6DA /* Sources */,
+				24F8302D14E335100060F6DA /* Frameworks */,
+				24F8302E14E335100060F6DA /* Resources */,
+				24F8302F14E335100060F6DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F8303714E335100060F6DA /* PBXTargetDependency */,
+			);
+			name = lightControlAppTests;
+			productName = herpinTests;
+			productReference = 24F8303114E335100060F6DA /* lightControlAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F8300714E335100060F6DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 24F8300A14E335100060F6DA /* Build configuration list for PBXProject "lightControlApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 24F8300514E335100060F6DA;
+			productRefGroup = 24F8301114E335100060F6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F8300F14E335100060F6DA /* lightControlApp */,
+				24F8303014E335100060F6DA /* lightControlAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F8300E14E335100060F6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F8301F14E335100060F6DA /* InfoPlist.strings in Resources */,
+				24F8302814E335100060F6DA /* MainStoryboard.storyboard in Resources */,
+				2532833915263D8B00E775B1 /* energyButton.png in Resources */,
+				2532833A15263D8B00E775B1 /* energyButtonUnselected.png in Resources */,
+				2532833B15263D8B00E775B1 /* presetsButton.png in Resources */,
+				2532833C15263D8B00E775B1 /* presetsButtonUnselected.png in Resources */,
+				2532833D15263D8B00E775B1 /* settingsButton.png in Resources */,
+				2532833E15263D8B00E775B1 /* settingsButtonUnselected.png in Resources */,
+				25CBAC3A153CF9370069A08D /* Documentation.html in Resources */,
+				2597A8951548A57200DF28D4 /* redButton.png in Resources */,
+				2597A8981548A57B00DF28D4 /* blueButton.png in Resources */,
+				2597A89B1548AF0300DF28D4 /* blueButtonSmaller.png in Resources */,
+				2597A89C1548AF0300DF28D4 /* redButtonSmaller.png in Resources */,
+				253B94E9155395C4002F718D /* 35412908985844178.png in Resources */,
+				253B94EA155395C4002F718D /* 570133364965954419.png in Resources */,
+				253B94EB155395C4002F718D /* blueButton.png in Resources */,
+				253B94EC155395C4002F718D /* cell.png in Resources */,
+				253B94ED155395C4002F718D /* cell.psd in Resources */,
+				253B94EE155395C4002F718D /* energyButton.psd in Resources */,
+				253B94EF155395C4002F718D /* energyButtonUnselected.psd in Resources */,
+				253B94F0155395C4002F718D /* HT1476_03-iphone_china-lightning_bolt-002-en.png in Resources */,
+				253B94F1155395C4002F718D /* icon.png in Resources */,
+				253B94F2155395C4002F718D /* icon.psd in Resources */,
+				253B94F3155395C4002F718D /* Light_Bulb.png in Resources */,
+				253B94F4155395C4002F718D /* monotone_cog_settings_gear_1.png in Resources */,
+				253B94F5155395C4002F718D /* presetsButton.psd in Resources */,
+				253B94F6155395C4002F718D /* presetsButtonUnselected.psd in Resources */,
+				253B94F7155395C4002F718D /* settingsButton.psd in Resources */,
+				253B94F8155395C4002F718D /* settingsButtonUnselected.psd in Resources */,
+				253B94F9155395C4002F718D /* step8a.jpg in Resources */,
+				253B94FA155395C4002F718D /* energyButton.png in Resources */,
+				253B94FB155395C4002F718D /* energyButtonUnselected.png in Resources */,
+				253B94FC155395C4002F718D /* presetsButton.png in Resources */,
+				253B94FD155395C4002F718D /* presetsButtonUnselected.png in Resources */,
+				253B94FE155395C4002F718D /* settingsButton.png in Resources */,
+				253B94FF155395C4002F718D /* settingsButtonUnselected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F8302E14E335100060F6DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F8303D14E335100060F6DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F8302F14E335100060F6DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F8300C14E335100060F6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F8302114E335100060F6DA /* main.m in Sources */,
+				24F8302514E335100060F6DA /* AppDelegate.m in Sources */,
+				248FAA9714E45F37002EC8AF /* firstViewController.m in Sources */,
+				24AACE1314E9AC8B00F80058 /* presetsViewController.m in Sources */,
+				24CA1A4E14EC5A63007C04EE /* Preset.m in Sources */,
+				24F8E28A14F2FCAB00352F05 /* editController.m in Sources */,
+				24F8507214F6F544008E9F7C /* createNewViewController.m in Sources */,
+				2542833F15114B8500B507AF /* APAttribute.m in Sources */,
+				2542834015114B8500B507AF /* APDocument.m in Sources */,
+				2542834115114B8500B507AF /* APElement.m in Sources */,
+				25E556751523A73000340371 /* settingsViewController.m in Sources */,
+				2500B2701523A81B00189439 /* energyViewController.m in Sources */,
+				2555F08C152511D600444AF4 /* FloatHolder.m in Sources */,
+				253282FA1525F6F900E775B1 /* defaultSettingsViewController.m in Sources */,
+				250B8E76152E4E0600F59FAB /* currentSettingsViewController.m in Sources */,
+				25E904271530C38100A2FF67 /* noAnimationSegue.m in Sources */,
+				25CBAAE9153CEB040069A08D /* loginInfo.m in Sources */,
+				25CBAC3B153CF9370069A08D /* GCDAsyncSocket.m in Sources */,
+				25CBAC3C153CF9370069A08D /* GCDAsyncUdpSocket.m in Sources */,
+				25E6181B1546385F006F376E /* timerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F8302C14E335100060F6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F8304014E335100060F6DA /* herpinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F8303714E335100060F6DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F8300F14E335100060F6DA /* lightControlApp */;
+			targetProxy = 24F8303614E335100060F6DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24F8301D14E335100060F6DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F8301E14E335100060F6DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24F8302614E335100060F6DA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F8302714E335100060F6DA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = /Users/iankoenigsknecht/Desktop/herpin/herpin;
+			sourceTree = "<absolute>";
+		};
+		24F8303B14E335100060F6DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F8303C14E335100060F6DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F8304114E335100060F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24F8304214E335100060F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F8304414E335100060F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "herpin/lightControlApp-Prefix.pch";
+				INFOPLIST_FILE = "herpin/lightControlApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Client\"",
+				);
+				PRODUCT_NAME = lightControlApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24F8304514E335100060F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "herpin/lightControlApp-Prefix.pch";
+				INFOPLIST_FILE = "herpin/lightControlApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Client\"",
+				);
+				PRODUCT_NAME = lightControlApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24F8304714E335100060F6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/herpin.app/herpin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "herpin/herpin-Prefix.pch";
+				INFOPLIST_FILE = "herpinTests/lightControlAppTests-Info.plist";
+				PRODUCT_NAME = lightControlAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24F8304814E335100060F6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/herpin.app/herpin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "herpin/herpin-Prefix.pch";
+				INFOPLIST_FILE = "herpinTests/lightControlAppTests-Info.plist";
+				PRODUCT_NAME = lightControlAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F8300A14E335100060F6DA /* Build configuration list for PBXProject "lightControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F8304114E335100060F6DA /* Debug */,
+				24F8304214E335100060F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F8304314E335100060F6DA /* Build configuration list for PBXNativeTarget "lightControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F8304414E335100060F6DA /* Debug */,
+				24F8304514E335100060F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F8304614E335100060F6DA /* Build configuration list for PBXNativeTarget "lightControlAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F8304714E335100060F6DA /* Debug */,
+				24F8304814E335100060F6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24F8300714E335100060F6DA /* Project object */;
+}
