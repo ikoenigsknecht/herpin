@@ -64,6 +64,7 @@
 		2597A8981548A57B00DF28D4 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A8971548A57B00DF28D4 /* blueButton.png */; };
 		2597A89B1548AF0300DF28D4 /* blueButtonSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A8991548AF0300DF28D4 /* blueButtonSmaller.png */; };
 		2597A89C1548AF0300DF28D4 /* redButtonSmaller.png in Resources */ = {isa = PBXBuildFile; fileRef = 2597A89A1548AF0300DF28D4 /* redButtonSmaller.png */; };
+		25A493B91799A0FF0072E980 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A493B81799A0FF0072E980 /* Default-568h@2x.png */; };
 		25A4998E14FEA2CE0060093F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998814FEA2CE0060093F /* CFNetwork.framework */; };
 		25A4998F14FEA2CE0060093F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998914FEA2CE0060093F /* CoreData.framework */; };
 		25A4999014FEA2CE0060093F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4998A14FEA2CE0060093F /* MobileCoreServices.framework */; };
@@ -165,6 +166,7 @@
 		2597A8971548A57B00DF28D4 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		2597A8991548AF0300DF28D4 /* blueButtonSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonSmaller.png; sourceTree = "<group>"; };
 		2597A89A1548AF0300DF28D4 /* redButtonSmaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButtonSmaller.png; sourceTree = "<group>"; };
+		25A493B81799A0FF0072E980 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25A4998814FEA2CE0060093F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		25A4998914FEA2CE0060093F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25A4998A14FEA2CE0060093F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -258,6 +260,7 @@
 		24F8300514E335100060F6DA = {
 			isa = PBXGroup;
 			children = (
+				25A493B81799A0FF0072E980 /* Default-568h@2x.png */,
 				2532833215263D8B00E775B1 /* TabBar Buttons */,
 				24F8301A14E335100060F6DA /* herpin */,
 				24F8303814E335100060F6DA /* herpinTests */,
@@ -569,6 +572,7 @@
 				253B94FD155395C4002F718D /* presetsButtonUnselected.png in Resources */,
 				253B94FE155395C4002F718D /* settingsButton.png in Resources */,
 				253B94FF155395C4002F718D /* settingsButtonUnselected.png in Resources */,
+				25A493B91799A0FF0072E980 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
