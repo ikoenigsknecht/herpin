@@ -7,3 +7,5 @@ control the lights, change lighting settings, set light timers, create lighting 
 savings, etc.  
 
 The app was never 100% complete and is currently in a semi-working state as changes have been made since the class.
+
+DISCLAIMER: Currently this application only works 100% in the Iphone 4S simulator.
